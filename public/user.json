@@ -1,0 +1,15 @@
+{
+    "student": {
+      "email": "student@example.com",
+      "password": "student123"
+    },
+    "parent": {
+      "email": "parent@example.com",
+      "password": "parent123"
+    },
+    "staff": {
+      "email": "staff@example.com",
+      "password": "staff123"
+    }
+  }
+  

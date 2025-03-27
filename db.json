@@ -1,0 +1,52 @@
+{
+  "students": [
+    {
+      "id": "2baf",
+      "name": "Nawin Vignesh P",
+      "email": "nawinvigneshp@gmail.com",
+      "phone": "7871784499",
+      "residentialaddress": "Plot No-95 Venkatesa Nagar Lion City Extension, Thirunagar, Madurai-6",
+      "academic_performance": "90",
+      "engagement_score": "90",
+      "attendance_rate": "89",
+      "parental_educational_level": "4",
+      "family_income": "1243522454",
+      "gender": "Male",
+      "socio_economic_status": true,
+      "disciplinary_record": "122",
+      "major_cause": "freferdf"
+    },
+    {
+      "id": "b14c",
+      "name": "Naveen ak",
+      "email": "naveeenak@gmail.com",
+      "phone": "7871534254",
+      "residentialaddress": "Plot No-95 Venkatesa Nagar Lion City Extension, Thirunagar, Madurai-6",
+      "academic_performance": "30",
+      "engagement_score": "12",
+      "attendance_rate": "41",
+      "parental_educational_level": "4",
+      "family_income": "1243522454",
+      "gender": "Male",
+      "socio_economic_status": false,
+      "disciplinary_record": "121",
+      "major_cause": "fredvfdvdf"
+    },
+    {
+      "id": "916d",
+      "name": "Devansh Mittal",
+      "email": "xyz@gmail.com",
+      "phone": "123456789",
+      "residentialaddress": "xyz",
+      "academic_performance": "75",
+      "engagement_score": "78",
+      "attendance_rate": "76",
+      "parental_educational_level": "3",
+      "family_income": "499996",
+      "gender": "Male",
+      "socio_economic_status": true,
+      "disciplinary_record": "0",
+      "major_cause": "financial issue"
+    }
+  ]
+}

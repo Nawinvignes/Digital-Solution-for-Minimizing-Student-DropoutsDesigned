@@ -1,0 +1,111 @@
+/* General Navbar Styling */
+.home-navbar {
+  background-color: #2980B9;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Navbar container adjustments */
+.home-navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* Logo Styling */
+.home-navbar-logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: 'Bodoni Moda SC', serif;
+}
+
+/* Navbar Links */
+.home-navbar-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.home-navbar-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.home-navbar-links ul li a:hover {
+  color: #6DD5FA;
+}
+
+/* Mobile Menu Icon */
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .home-navbar-links {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #2980B9;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 999;
+  }
+
+  .home-navbar-links.active {
+    transform: translateX(0);
+  }
+
+  .home-navbar-links ul {
+    flex-direction: column; /* Stack links vertically */
+    gap: 30px;              /* Space between links */
+  }
+
+  .home-navbar-logo a {
+    font-size: 1.2rem;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  /* Hide body scrolling when menu is open */
+  body.menu-open {
+    overflow: hidden;
+  }
+
+  /* Hamburger and X icon styling */
+  .menu-icon .hamburger {
+    color: white;
+    font-size: 2rem;
+  }
+
+  /* Ensure no extra scroll bars appear */
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}

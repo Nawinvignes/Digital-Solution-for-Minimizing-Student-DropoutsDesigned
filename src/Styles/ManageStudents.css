@@ -1,0 +1,88 @@
+.manage-student-container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto; /* Ensures horizontal scroll if content is too wide */
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .student-table th, 
+  .student-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .student-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .student-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive table - mobile view */
+  @media (max-width: 768px) {
+    .student-table, 
+    .student-table thead, 
+    .student-table tbody, 
+    .student-table th, 
+    .student-table td, 
+    .student-table tr {
+      display: block;
+    }
+  
+    .student-table th {
+      display: none; /* Hide table headers in mobile */
+    }
+  
+    .student-table td {
+      position: relative;
+      padding-left: 50%;
+      text-align: right; /* Align text to the right for easier reading */
+    }
+  
+    .student-table td:before {
+      content: attr(data-label); /* Use the data-label attribute for headers */
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 15px;
+      font-weight: bold;
+      color: #007bff;
+      text-align: left; /* Ensure labels are aligned to the left */
+    }
+  
+    .student-table td:last-child {
+      border-bottom: 2px solid #007bff;
+    }
+  }
+  
+  /* Additional styling for smaller screens */
+  @media (max-width: 480px) {
+    .student-table td {
+      padding-left: 40%;
+    }
+  }
+  

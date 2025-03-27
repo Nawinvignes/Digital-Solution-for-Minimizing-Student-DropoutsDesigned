@@ -1,0 +1,63 @@
+.financial-support-checker {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.financial-support-checker h3 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Bank info styles */
+.bank-info {
+    background-color: #e9f7ef;
+    padding: 15px;
+    border: 1px solid #28a745;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Sports info styles */
+.sport-info {
+    background-color: #e8f0fe;
+    padding: 15px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+
+.sport-details {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.sport-details:last-child {
+    border-bottom: none;
+}
+
+/* Error message styles */
+.error-message {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .financial-support-checker {
+        padding: 15px;
+    }
+
+    .financial-support-checker h3 {
+        font-size: 1.5rem;
+    }
+
+    .bank-info, .sport-info {
+        padding: 10px;
+    }
+}

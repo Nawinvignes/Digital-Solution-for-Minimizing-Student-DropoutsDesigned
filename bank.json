@@ -1,0 +1,45 @@
+{
+    "banks": [
+      {
+        "id": 1,
+        "name": "Bank of America",
+        "country": "USA",
+        "maxLoanAmount": 50000,
+        "interestRateMin": 5.0,
+        "interestRateMax": 9.0
+      },
+      {
+        "id": 2,
+        "name": "SBI (State Bank of India)",
+        "country": "India",
+        "maxLoanAmount": 15000000,
+        "interestRateMin": 9.3,
+        "interestRateMax": 12.5
+      },
+      {
+        "id": 3,
+        "name": "HSBC",
+        "country": "UK",
+        "maxLoanAmount": 75000,
+        "interestRateMin": 6.0,
+        "interestRateMax": 10.0
+      },
+      {
+        "id": 4,
+        "name": "Deutsche Bank",
+        "country": "Germany",
+        "maxLoanAmount": 50000,
+        "interestRateMin": 3.5,
+        "interestRateMax": 6.5
+      },
+      {
+        "id": 5,
+        "name": "ICICI Bank",
+        "country": "India",
+        "maxLoanAmount": 10000000,
+        "interestRateMin": 10.5,
+        "interestRateMax": 13.5
+      }
+    ]
+  }
+  
